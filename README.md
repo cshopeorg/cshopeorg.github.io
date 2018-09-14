@@ -1,1 +1,1 @@
-## Democratizing crisp CS information to the the underserved !!
+## Democratizing crisp CS information to the underserved !!
