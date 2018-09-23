@@ -42,7 +42,7 @@ img {
   font-weight: bold;
   font-size: 1.2em;
 }
-#ca-text {
+#can-text {
   color: #ff0000;
 }
 #us-text {
@@ -50,6 +50,14 @@ img {
 }
 .negative-text {
   color: #d50000;
+}
+.star-event {
+  width: 20px;
+  height: 20px;
+  display: inline;
+}
+.ca-text {
+  color: #43A047;
 }
 h1, h2 {
   font-family: 'Saira', sans-serif;
@@ -402,8 +410,8 @@ header h1 {
   }
   60% {
     opacity: 1;
-    -webkit-transform: translateX(-20px);
-            transform: translateX(-20px);
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
   }
   100% {
     -webkit-transform: translateX(0);
@@ -419,8 +427,8 @@ header h1 {
   }
   60% {
     opacity: 1;
-    -webkit-transform: translateX(-20px);
-            transform: translateX(-20px);
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
   }
   100% {
     -webkit-transform: translateX(0);
