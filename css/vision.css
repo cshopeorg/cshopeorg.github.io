@@ -6,11 +6,11 @@ body {
 header {
   min-height: 100px;
   padding: 40px;
-  line-height: 4em;
+  line-height: 3em;
   text-align: center
 }
 header h1 {
-  font-size: 3rem;
+  font-size: 2.4rem;
 }
 
 #main-point {
@@ -28,7 +28,8 @@ header h1 {
   main {
     background: white;
     min-height: 200px;
-    width: 80%;
+    max-width: 1170px;
+    width: 90%;
     margin: 0 auto;
     padding: 20px;
     display: flex;
@@ -41,7 +42,7 @@ header h1 {
   main h1 {
     color: #303e49;
     font-family: 'Saira', sans-serif;
-    font-size: 3em;
+    font-size: 2.4em;
     width: 60%;
     padding: 20px;
     resize: both;
