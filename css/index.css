@@ -85,7 +85,7 @@
 
 #country-ca {
     background-image: url(../img/ca.svg);
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 #country-ca:hover {
@@ -96,7 +96,7 @@
 
 #country-es {
     background-image: url(../img/es.svg);
-    opacity: 0.2;
+    opacity: 0.5;
 }
 
 #country-es:hover {

@@ -170,17 +170,6 @@ header h1 {
   border-radius: 50%;
 }
 
-.cd-timeline__img.cd-timeline__img--picture {
-  background: #75ce66;
-}
-
-.cd-timeline__img.cd-timeline__img--movie {
-  background: #c03b44;
-}
-
-.cd-timeline__img.cd-timeline__img--location {
-  background: #f0ca45;
-}
 
 @media only screen and (min-width: 1170px) {
   .cd-timeline__img {

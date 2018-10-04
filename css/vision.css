@@ -1,0 +1,69 @@
+body {
+    font-size: 80%;
+    padding: 10px 50px 100px;
+}
+
+header {
+  min-height: 100px;
+  padding: 40px;
+  line-height: 4em;
+  text-align: center
+}
+header h1 {
+  font-size: 3rem;
+}
+
+#main-point {
+  font-family: 'Crafty Girls', cursive;
+  color: #212121;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+  a {
+    color: #acb7c0;
+    text-decoration: none;
+  }
+  
+  main {
+    background: white;
+    min-height: 200px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: both;
+
+  }
+  
+  main h1 {
+    color: #303e49;
+    font-family: 'Saira', sans-serif;
+    font-size: 3em;
+    width: 60%;
+    padding: 20px;
+    resize: both;
+ 
+  }
+
+  main section {
+    font-family: 'Chivo', sans-serif;
+    color: #424242;
+    font-size: 1.5em;
+    padding: 20px;
+  }
+
+  main li {
+    margin-bottom: 10px;
+  }
+
+  main ul {
+      margin-top: 10px;
+  }
+
+  li img {
+    height: 15px;
+    width: 15px;
+  }
