@@ -81,12 +81,51 @@ Vertical Timeline - by CodyHouse.co
 -------------------------------- */
 header {
   min-height: 100px;
-  padding: 40px;
+  padding: 20px 20px;
   line-height: 2em;
-  text-align: center
+  overflow: hidden;
+  box-sizing: border-box;
 }
-header h1 {
+.nethi-adi {
   font-size: 2.4rem;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.logo {
+  float: left;
+}
+
+.menu-bar {
+  float: right;
+}
+
+.menu-bar a {
+  font-family: 'Chivo', sans-serif;
+  color: #424242;
+  margin-right: 10px;
+}
+
+.menu-bar a:hover {
+  color: #000;
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    text-align: center;
+  }
+  .logo {
+    float: none;
+    
+  }
+  .menu-bar {
+    float: none;
+  }
+
+  .menu-bar a {
+    display: block;
+    text-align: center;
+  }
 }
 
 
