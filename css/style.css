@@ -36,12 +36,7 @@ img {
   max-width: 100%;
 }
 
-#main-point {
-  font-family: 'Crafty Girls', cursive;
-  color: #212121;
-  font-weight: bold;
-  font-size: 1.2em;
-}
+
 #can-text {
   color: #ff0000;
 }
@@ -79,54 +74,6 @@ Patterns - reusable parts of our design
 Vertical Timeline - by CodyHouse.co
 
 -------------------------------- */
-header {
-  min-height: 100px;
-  padding: 20px 20px;
-  line-height: 2em;
-  overflow: hidden;
-  box-sizing: border-box;
-}
-.nethi-adi {
-  font-size: 2.4rem;
-  text-align: center;
-  margin-top: 40px;
-}
-
-.logo {
-  float: left;
-}
-
-.menu-bar {
-  float: right;
-}
-
-.menu-bar a {
-  font-family: 'Chivo', sans-serif;
-  color: #424242;
-  margin-right: 10px;
-}
-
-.menu-bar a:hover {
-  color: #000;
-}
-
-@media screen and (max-width: 500px) {
-  header {
-    text-align: center;
-  }
-  .logo {
-    float: none;
-    
-  }
-  .menu-bar {
-    float: none;
-  }
-
-  .menu-bar a {
-    display: block;
-    text-align: center;
-  }
-}
 
 
 
