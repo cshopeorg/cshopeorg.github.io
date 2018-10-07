@@ -1,106 +1,169 @@
-
-@import url(https://fonts.googleapis.com/css?family=Pacifico);
-.header {
-    height: 85px;
-    line-height: 85px;
-    background-color: #fff;
+main {
+    padding: 100px;
+    min-height: 200px;
+    text-align: center;
 }
 
-#main-point {
-    font-family: 'Crafty Girls', cursive;
-    color: #212121;
-    font-weight: bold;
-    font-size: 1.2em;
+.countries-list {
+
+}
+
+.countries-list a {
+    text-decoration: none;
+    color: #424242;
+    font-family: 'Chivo', sans-serif;
+    color: #424242;
+    font-size: 1.6em;
+
+}
+
+.countries-list a:hover {
+    color: #000000;
+}
+
+.mass-naadu {
+    margin: 20px;
+}
+
+
+.kodi-kaapan img{
+    width: 30px;
+    height: 30px;
+    vertical-align: bottom;
+    animation: kodi-kaapan-animation linear 2s;
+    animation-iteration-count:  infinite;
+    transform-origin: 50% 50%;
+    -webkit-animation: kodi-kaapan-animation linear 2s;
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-transform-origin: 50% 50%;
+    -moz-animation: kodi-kaapan-animation linear 2s;
+    -moz-animation-iteration-count:  infinite;
+    -moz-transform-origin: 50% 50%;
+    -o-animation: kodi-kaapan-animation linear 2s;
+    -o-animation-iteration-count:  infinite;
+    -o-transform-origin: 50% 50%;
+    -ms-animation: kodi-kaapan-animation linear 2s;
+    -ms-animation-iteration-count:  infinite;
+    -ms-transform-origin: 50% 50%;
   }
 
+  .viraivil img{
+      animation: none;
+      -webkit-animation: none;
+      -moz-animation: none;
+      -o-animation: none;
+      -ms-animation: none;
+  }
 
+  .viraivil {
+      pointer-events: none;
+  }
 
-.border-color div {
-    display: inline-block;
-    width: 16.666%; 
-    height: 4px;
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
+  .viraivil img {
+      opacity: 0.2;
+  }
 
+  .viraivil a {
+      color: #F5F5F5;
+  }
 
-.border-color div:nth-child(1){
-    background: #00247d; /* nz */
-}
+  .viraivil a:hover {
+      color: #F5F5F5;
 
-.border-color div:nth-child(2){
-    background: #cc142b; /* nz */
-}
+  }
 
-.border-color div:nth-child(3) {
-    background: #0072ce; /* est */
-}
-
-.border-color div:nth-child(4) {
-    background: #000; /* est */
-}
-
-.border-color div:nth-child(5) {
-    background: #ff883e; /*ire*/
-}
-
-.border-color div:nth-child(6) {
-    background: #ff0000; /*ca*/
-}
-
-
-
-.logo {
-    margin: 0;
-    font-size: 30px;
-    display: inline-block;
-    width: 200px;
-    height: 85px;
-    text-align: center;
-    color: #2c3e50;
-    border-right: 1px solid #ddd;
-    font-family: Pacifico;
-
-}
-
-
-.content {
-    padding: 5% 30% 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.country {
-    width: 200px;
-    height: 200px;
-    line-height: 50px;
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-size: 100%;
-    background-position:center;
-    margin: 2%;
-}
-
-#country-ca {
-    background-image: url(../img/ca.svg);
-    opacity: 0.5;
-}
-
-#country-ca:hover {
-    cursor: pointer;
-    opacity: 1;
-}
-
-
-#country-es {
-    background-image: url(../img/es.svg);
-    opacity: 0.5;
-}
-
-#country-es:hover {
-    cursor: not-allowed;
-    opacity: 0.1;
-}
-
+  
+  @keyframes kodi-kaapan-animation{
+    0% {
+        opacity:1;
+      }
+      20% {
+          opacity: 0.60;
+      }
+      50% {
+        opacity:0.20;
+      }
+      75% {
+          opacity: 0.50;
+      }
+      100% {
+        opacity:0.80;
+      }
+    }
+  }
+  
+  @-moz-keyframes kodi-kaapan-animation{
+    0% {
+        opacity:1;
+      }
+      20% {
+          opacity: 0.60;
+      }
+      50% {
+        opacity:0.20;
+      }
+      75% {
+          opacity: 0.50;
+      }
+      100% {
+        opacity:0.80;
+      }
+    }
+  }
+  
+  @-webkit-keyframes kodi-kaapan-animation {
+    0% {
+        opacity:1;
+      }
+      20% {
+          opacity: 0.60;
+      }
+      50% {
+        opacity:0.20;
+      }
+      75% {
+          opacity: 0.50;
+      }
+      100% {
+        opacity:0.80;
+      }
+    }
+  }
+  
+  @-o-keyframes kodi-kaapan-animation {
+    0% {
+        opacity:1;
+      }
+      20% {
+          opacity: 0.60;
+      }
+      50% {
+        opacity:0.20;
+      }
+      75% {
+          opacity: 0.50;
+      }
+      100% {
+        opacity:0.80;
+      }
+    }
+  }
+  
+  @-ms-keyframes kodi-kaapan-animation {
+    0% {
+        opacity:1;
+      }
+      20% {
+          opacity: 0.60;
+      }
+      50% {
+        opacity:0.20;
+      }
+      75% {
+          opacity: 0.50;
+      }
+      100% {
+        opacity:0.80;
+      }
+    }
+  }
