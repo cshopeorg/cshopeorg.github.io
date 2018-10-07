@@ -1,5 +1,5 @@
 main {
-    padding: 100px;
+    padding: 100px 20px;
     min-height: 200px;
     text-align: center;
 }
@@ -167,3 +167,4 @@ main {
       }
     }
   }
+
