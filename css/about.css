@@ -1,0 +1,52 @@
+
+
+
+  a {
+    color: #acb7c0;
+    text-decoration: none;
+  }
+  
+  main {
+    background: white;
+    min-height: 200px;
+    max-width: 1170px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: both;
+
+  }
+  
+  main h1 {
+    color: #303e49;
+    font-family: 'Saira', sans-serif;
+    font-size: 1.5em;
+    width: 60%;
+    padding: 20px;
+    resize: both;
+ 
+  }
+
+  main section {
+    font-family: 'Chivo', sans-serif;
+    color: #424242;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    padding: 20px;
+  }
+
+  main li {
+    margin-bottom: 10px;
+  }
+
+  main ul {
+      margin-top: 10px;
+  }
+
+  li img {
+    height: 15px;
+    width: 15px;
+  }
