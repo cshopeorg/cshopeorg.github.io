@@ -19,10 +19,7 @@ body {
   /*background-color: #e9f0f5;*/
 }
 
-a {
-  color: #acb7c0;
-  text-decoration: none;
-}
+
 
 div {
   padding: 0px;
@@ -51,12 +48,23 @@ img {
   height: 20px;
   display: inline;
 }
-.ca-text {
+.ca-text, .ca-text a  {
   color: #43A047;
 }
+
+.ca-text a {
+  text-decoration: underline;
+}
+
+.ca-text a:hover {
+  color: #337ab7;
+}
+
 h1, h2 {
   font-family: 'Saira', sans-serif;
 }
+
+
 
 /* -------------------------------- 
 
